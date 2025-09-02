@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Root endpoint
-@app.get("/")
+@app.get("/hello")
 async def root():
     return {"message": "Hello from Azure"}
 
